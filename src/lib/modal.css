@@ -1,0 +1,50 @@
+.modal {
+    width: fit-content;
+    height: fit-content;
+    max-width: 30em;
+    min-width: 5em;
+    max-height: 30em;
+    min-height: 5em;
+    padding: 0.8em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #23272F;
+    border: solid 1px #333944;
+    color: rgb(241, 241, 241);
+}
+
+.modal_close {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+    width: 2em;
+    height: 2em;
+}
+
+.modal_close_svg {
+    fill: rgb(241, 241, 241);
+}
+
+.modal_title {
+    font-weight: bold;
+}
+
+.modal_text {
+    margin-top: 1.5em !important;
+    overflow-y: auto;
+}
+
+.modal_title, .modal_text {
+    padding-right: 1em !important;
+}
+
+.modal_title, .modal_text, .modal_close {
+    margin: 0;
+    padding: 0;
+}
